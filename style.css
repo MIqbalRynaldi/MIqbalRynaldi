@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--primary-color : #0226FD;
+	--secondary-color : #3552FD;
+}
+
+header{
+	width: 100%;
+	height: 25em;
+	background-color: var(--primary-color);
+	display: flex;
+	flex-direction: column;
+	position: sticky;
+}
+
+header a{
+	margin: auto;
+	display: flex;
+	width: 10%;
+}
+
+header a img#icon{
+	width: 100%;
+	margin: auto;
+}
+
+header h1#title{
+	margin: -50px auto auto auto;
+	color: white;
+	font-family: sans-serif;
+}
+
+header nav{
+	width: 100%;
+	height: 15%;
+	background-color: var(--secondary-color);
+	display: flex;
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	margin: auto 30px;
+	font-size: 20px;
+	width: 30px;
+}
+
+header nav a:hover{
+	font-weight: bold;
+	font-size: 19px;
+
+}
+
+main{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+main div#content{
+	width: 70%;
+	height: auto;
+	background-color: white;
+	padding: 2em;
+}
+main div#content article form#form-contact div{
+	display: flex;
+	flex-direction: column;
+}
+main div#content article form#form-contact div input,main div#content article form#form-contact div select,main div#content article form#form-contact div textarea{
+	padding: 8px;
+	border: none;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+main div#content article form#form-contact div input[type="submit"]{
+	background-color: var(--primary-color);
+	color: white;
+}
+main div#content article{
+	margin: 10px;
+	width: 100%;
+	box-shadow: 3px 3px 10px gray;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+main div#content article h3,.color-blue{
+	color: var(--primary-color);
+}
+
+
+main div#content article img{
+	width: 100%;
+	height: 40vh;
+	margin-top: 20px;
+	background-color: gray;
+}
+main div#content article span{
+	padding: 10px;
+	text-align: justify;
+}
+main div#content article span p{
+	width: 100%;
+	text-align: justify;
+	word-wrap: break-word;
+}
+main aside{
+	padding: 2em;
+
+}
+main aside div{
+	box-shadow: 3px 3px 10px gray;
+	border-radius: 10px;
+	width: auto;
+	padding: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+main aside div h2{
+	text-align: center;
+	color: var(--primary-color);
+}
+
+main aside div img{
+	padding: 5px;
+	width: 200px;
+	height: 300px;
+	margin: 5px auto;
+}
+main aside div table tr td.title{
+	font-weight: bold;
+}
+
+footer{
+	text-align: center;
+	background-color: var(--primary-color);
+	padding: 15px;
+	color: white;
+}
+
+.margin-left-5px{
+	margin-left: 5px;
+}
